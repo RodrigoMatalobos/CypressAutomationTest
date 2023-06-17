@@ -1,0 +1,28 @@
+{
+  "name": "cypress-automation",
+  "version": "1.0.0",
+  "description": "Cypress Automation test Project",
+  "main": "index.js",
+  "scripts": {
+    "cyopen": "npx cypress open",
+    "cyrun": "cypress run",
+    "cyrunspec": "cypress run --spec",
+    "cynovideo": "cypress run cypress run --config video=false --spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodrigoMatalobos/CypressAutomationTest.git"
+  },
+  "keywords": [
+    "Cypress"
+  ],
+  "author": "Rodrigo Matalobos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodrigoMatalobos/CypressAutomationTest/issues"
+  },
+  "homepage": "https://github.com/RodrigoMatalobos/CypressAutomationTest#readme",
+  "dependencies": {
+    "cypress": "^12.14.0"
+  }
+}
