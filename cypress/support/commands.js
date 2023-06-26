@@ -23,3 +23,18 @@
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+Cypress.Commands.add('invalidFields', (idField, idMessage) => {
+    cy.get(idField)
+    .parent()
+    .within(()=>{
+      
+      cy.get('.invalid-feedback')
+        .should('have.css', 'color', 'rgb(176, 42, 55)')
+        .should('contain', idMessage)
+      
+      cy.get(idField)
+        .should('have.css', 'border-color', 'rgb(220, 53, 69)')
+        .should('have.css', 'background-image')
+  }) 
+})

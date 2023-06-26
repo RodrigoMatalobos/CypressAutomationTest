@@ -1,0 +1,29 @@
+{
+  "firstName": "#firstName", 
+  "firstNameMessage": "Valid first name is required.",
+  "lastName": "#lastName", 
+  "lastNameMessage":"Valid last name is required.",
+  "username": "#username", 
+  "usernameMessage":"Your username is required.",
+  "address": "#address", 
+  "addressMessage":"Please enter your shipping address.",
+  "country": "#country", 
+  "countryMessage":"Please select a valid country.",
+  "state": "#state", 
+  "stateMessage":"Please provide a valid state.",
+  "zip": "#zip", 
+  "zipMessage":"Zip code required.",
+  "ccname": "#cc-name", 
+  "ccnameMessage":"Name on card is required",
+  "ccnumber": "#cc-number", 
+  "ccnumberMessage":"Credit card number is required",
+  "ccexpiration": "#cc-expiration", 
+  "ccexpirationMessage":"Expiration date required",
+  "cccvv": "#cc-cvv", 
+  "cccvvMessage":"Security code required",
+  "email": "#email", 
+  "emailMessage":"Please enter a valid email"
+}
+
+
+
