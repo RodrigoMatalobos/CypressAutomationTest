@@ -1,0 +1,15 @@
+name: testCypressWK
+
+on: push
+
+jobs:
+  chrome:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.1.0
+      - name: Cypress.io
+        uses: cypress-io/github-action@v6.3.0
+        with: 
+          start: npm start
+        
